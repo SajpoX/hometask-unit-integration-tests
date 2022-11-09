@@ -27,7 +27,7 @@ ${-1}|${1}|${1} // What is result for negative value?
     expect(outputText).toBe(expectedResult)
 });
 
-test('should properly calculate rectangle area', () => {
+test('should properly display information about calculated rectangle perimeter and area', () => {
     //Given
     console.log = jest.fn();
     //When
