@@ -1,0 +1,24 @@
+{
+  "name": "hometask-unit-integration-tests",
+  "version": "1.0.0",
+  "description": "This is my first project",
+  "main": "index.js",
+  "repository": "https://github.com/SajpoX/hometask-unit-integration-tests.git",
+  "author": "SajpoX <114994877+SajpoX@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.0",
+    "jest": "^29.3.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "type": "module"
+}
